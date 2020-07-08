@@ -19,7 +19,7 @@ $credenziali_json = "client_secret_2.json";
 $redirect_uri = 'http://localhost/youyube_export_import/oauth2callback.php';
 
 
-$numero_operazioni_max = 10; //mi dice il numero massimo di video che posso inserire, questo perchè ho un massimo di operazioni che posso eseguire
+$numero_operazioni_max = 4; //mi dice il numero massimo di video che posso inserire, questo perchè ho un massimo di operazioni che posso eseguire
 //************************************************************************************
 
 if (  !isset($_GET['riga'])  ) {

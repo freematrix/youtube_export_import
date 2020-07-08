@@ -14,7 +14,6 @@ dal menu di sinistra cliccare credenziali e poi cliccare "+ crea credemziali" e 
 selezionare "Web". come "URI di reindirizzamento autorizzati" aggiungere l'url della pagina che fa la redirect verso la pagina che fa le query api
 Nel progetto che sto facendo è 
 "http://localhost/youyube_export_import/oauth2callback.php"
-su questa pagina poi andrà modificato la var redirect_uri che richiama la pagina reale che farà le api
 
 dal menu di sinistra cliccare credenziali e poi cliccare la freccia sulla riga delle credenziali create per scaricare il file json 
 (mettere nella cartella del progetto)
