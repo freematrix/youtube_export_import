@@ -17,6 +17,9 @@ Nel progetto che sto facendo è
 
 dal menu di sinistra cliccare credenziali e poi cliccare la freccia sulla riga delle credenziali create per scaricare il file json 
 (mettere nella cartella del progetto)
+Il file si deve chiama 
+client_secret_xxxxxx.json 
+sostituendo xxxx con il nome desiderato. Queste serve per evitare di mettere su github il file
 
 ---------------------------------------------------------------------------------------------------------------------------
 Per poter gestire più velocemente i canali andare alla pagina
