@@ -1,0 +1,9 @@
+/.vscode
+/vendor
+
+/test.xml
+/leggixml.php
+/client_secret.json
+/client_secret_2.json
+/outputPlaylists.json
+/outputSubscriptions.json

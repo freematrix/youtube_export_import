@@ -1,0 +1,37 @@
+Per poter fare le chiamate a youtube occorre creare un app aposita sull'account che si desidera interrogare
+da qui abilitare le api a youtube, dare un nome alla app. creare credenziali oath2 e salvare il file delle credenziali ul pc. In ordine
+
+
+https://console.developers.google.com/
+da qui creare un nuovo progetto (il nome non è importante). Cliccare sul menu di sinistra "dashboard" e poi "+ abilita api e servizi". 
+da qui abilitare "YouTube Data API v3" e "YouTube Analytics API"
+
+dal menu di sinistra andare su "Credenziali" e cliccare su "Configura schermata di consenso"
+Come user type cliccare "Esterno"
+Nella schermata successiva Come nome dare un nome qualsiasi e salvare
+
+dal menu di sinistra cliccare credenziali e poi cliccare "+ crea credemziali" e selezionare oauth. Come tipo i applicazione 
+selezionare "Web". come "URI di reindirizzamento autorizzati" aggiungere l'url della pagina che fa la redirect verso la pagina che fa le query api
+Nel progetto che sto facendo è 
+"http://localhost/youyube_export_import/oauth2callback.php"
+su questa pagina poi andrà modificato la var redirect_uri che richiama la pagina reale che farà le api
+
+dal menu di sinistra cliccare credenziali e poi cliccare la freccia sulla riga delle credenziali create per scaricare il file json 
+(mettere nella cartella del progetto)
+
+---------------------------------------------------------------------------------------------------------------------------
+Per poter gestire più velocemente i canali andare alla pagina
+https://www.youtube.com/subscription_manager
+da qui è anche possibile estrarrre un xml con tutti i canali a cui sono iscrittto
+
+--------------------------
+Per gestire la lista dei video inseriti in watch later andare alla pagina
+https://www.youtube.com/playlist?list=WL&disable_polymer=true
+in alto a destra ci sono 3 puntini -> cliccndo posso spostare i video in una playlist separata
+da qui poi esportare tutti i video con la relativa pagina 
+
+--------------------------------------------------------------------------------------
+N.B. 
+relativamente al numero massimo di query che posso eseguire, per quanto riguarda la playlist inserimento, ho notato che non posso inserire più di 180 video in mezora
+170 si ma 180 no
+Al massimo prevedere 170 operazioni e poi aspettare
